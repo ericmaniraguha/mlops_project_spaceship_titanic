@@ -1,0 +1,25 @@
+torch  # PyTorch library for machine learning tasks
+pandas  # Data manipulation and analysis library
+dvc  # Data Version Control tool for managing ML project data
+notebook  # Jupyter Notebook for interactive computing
+numpy  # Numerical computing library
+matplotlib  # Data visualization library
+seaborn  # Statistical data visualization library
+python-box==6.0.2  # Configuration management library
+pyYAML  # YAML parser and emitter for Python
+tqdm  # Progress bar library
+ensure==1.0.2  # Library for checking installed packages
+joblib  # Library for lightweight pipelining in Python
+types-PyYAML  # Type annotations for PyYAML
+scipy  # Scientific computing library
+Flask  # Web framework for building web applications
+Flask-Cors  # Flask extension for handling Cross-Origin Resource Sharing (CORS)
+cassandra-driver  # Python driver for Apache Cassandra
+scikit-learn  # Machine learning library for classical ML algorithms
+tensorboard  # TensorFlow's visualization toolkit
+torchserve  # Model serving library for PyTorch models
+torch-model-archiver  # Archiving tool for PyTorch models
+torch-workflow-archiver  # Archiving tool for PyTorch workflows
+onnx  # Open Neural Network Exchange format for interoperability between ML frameworks
+onnxruntime  # Inference engine for ONNX models
+-e .  # Install the current directory as a package (editable mode)
