@@ -1,0 +1,5 @@
+# Parameters for model training
+BATCH_SIZE: 512  # Batch size for training
+EPOCHS: 6  # Number of epochs for training
+LEARNING_RATE: 0.01  # Learning rate for the optimizer
+FEATURES: 14  # Number of features used in the model

@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 # Setup the project description 
-REPO_NAME = "mlops_project_speceship_titanic"
+REPO_NAME = "mlops_project_spaceship_titanic"
 AUTHOR_USER_NAME = "ericmaniraguha"
 SRC_REPO = "titanicSpaceShip"
 AUTHOR_EMAIL = "emanirag@andrew.cmu.edu"

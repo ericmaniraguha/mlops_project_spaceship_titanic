@@ -59,5 +59,40 @@ This project demonstrates the implementation of MLOps techniques for the Titanic
 8. **Copy and Paste Downloaded Files: Token and Bundle into Our Project Files**:
    - Copy and paste the downloaded token `titanic_spaceship_db-token.json` and bundle `secure-connect-titanic-spaceship-db.zip` files into the appropriate location within our project files.
 
-These steps facilitate the preprocessing and preparation of the dataset for further analysis and modeling.
+### III. Data Preprocessing
 
+1. **Create the data ingestion file `01_data_ingestion.ipynb`**:
+   - Write code of Data Ingestion Configurations after setting up the right path.
+
+2. **Write code of configuration the data Ingestion into `config >> config.yaml`**:
+   - write configuration code
+3. **Create the common file from `common.py`**
+write code of reading yaml file and create_directories
+
+3. **Create the logger file from `logger.py`**
+      - add logger into the `__init__.py`
+
+### III. Data Ingestion
+
+4. **Write Data Ingestion file into `01_data_ingestion.`**:
+    - Download data from the Cassandra server.
+    - Add code into `__init__.py` from the constant file:
+        - `Configurations file` and `parameters path`.
+    - Run code written in `01_data_ingestion`.
+
+5. **Create a file inside the entity file `config_entity.py`**:
+    - Write a class of `DataIngestionConfig`.
+
+6. **Configure the component file `__init__.py`**:
+    - Write code for the Python module that handles data ingestion from a Cassandra database into a local CSV file.
+
+7. **Write code from `config >> configuration.py`**:
+    - Add necessary configurations in the `configuration.py` file.
+
+8. **Create the `stage_01_data_ingestion` and write code of the ingestion pipeline**:
+    - Implement the data ingestion stage with the class `DataIngestionTrainingPipeline`.
+
+9. **Create the file `main.py`**:
+    - Add code of the data ingestion pipeline, which will run the data ingestion pipeline.
+
+These steps are essential for setting up the data ingestion process, configuring necessary files, and implementing the ingestion pipeline to prepare the data for further analysis and modeling.

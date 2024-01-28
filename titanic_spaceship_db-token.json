@@ -1,11 +1,11 @@
 {
-  "clientId": "vGdxWkJSLKjMwRoGSSbylXMh",
-  "secret": "k36nvii-.REQ9lUHyMsAb.rMXCKr8fdO2ZbzvK35KZSwkrAvC.hXG3RBaidijyHRME0nJ_vh9UJJNi-qCKmBSRkWIy2610D5Znnj_jP2qCcQgLe,5hUFtaQslbeGQWH1",
-  "token": "AstraCS:vGdxWkJSLKjMwRoGSSbylXMh:8b59d8e6e4dd53bcf7f2b51746f4b77e05e7d75082a6f9ca5688fad5159e995c",
+  "clientId": "sWhFljFiETamYRAYZQochuFS",
+  "secret": "bHZpkNZ+KKGQvCyF.iPFKTyZJvYtKyalPz_J3KOwMcDea_5fy3xNP5lJPnNq0y48kK7oKU0M_2Lva,7tbAeHZwKdX1KERQlGf9K1rK+_g5DEnH.8J4DiHt2HL.HjlU7Y",
+  "token": "AstraCS:sWhFljFiETamYRAYZQochuFS:b37f2ed07a42efc236a1e2e5cd3cddb0753aaf13f6ca99ea204659d676b73723",
   "orgId": "5c65fab8-a829-4b92-8612-820b413dcbb3",
   "roles": [
-    "43745b73-ad46-46e4-b826-c15d06d2cea0"
+    "0bf66a9b-9b2e-4a34-94ab-8968d13d74fb"
   ],
-  "generatedOn": "2024-01-28T00:19:38.800114529Z",
+  "generatedOn": "2024-01-28T02:16:00.909393738Z",
   "__typename": "GenerateToken"
 }

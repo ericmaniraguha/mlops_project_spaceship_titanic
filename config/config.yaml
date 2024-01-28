@@ -1,0 +1,7 @@
+artifacts_root: artifacts  # Root directory for storing artifacts
+
+data_ingestion:  # Configuration for data ingestion
+  root_dir: artifacts/data_ingestion  # Root directory for data ingestion
+  local_data_file: artifacts/data_ingestion/data_spaceShip.csv  # Path to the local data file
+  cloud_config_zipfile: secure-connect-titanic-spaceship-db.zip  # Path to the zipfile containing cloud configuration
+  authentication_token: titanic_spaceship_db-token.json  # Path to the authentication token file
